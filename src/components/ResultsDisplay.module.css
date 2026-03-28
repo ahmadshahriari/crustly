@@ -1,0 +1,59 @@
+.section {
+  margin-bottom: 1.5rem;
+}
+
+.heading {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-muted);
+  margin: 0 0 0.75rem 0;
+}
+
+.results {
+  background: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0.375rem 0;
+}
+
+.label {
+  font-size: 0.95rem;
+  color: var(--color-text);
+}
+
+.value {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-text);
+  font-variant-numeric: tabular-nums;
+}
+
+.divider {
+  height: 1px;
+  background: var(--color-border);
+  margin: 0.5rem 0;
+}
+
+.total .label {
+  font-weight: 600;
+}
+
+.total .value {
+  font-size: 1.15rem;
+  color: var(--color-primary);
+}
+
+.detail {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--color-muted);
+}
